@@ -1,11 +1,12 @@
 @import "cssreset.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
-@import "top.css";
-@import "services.css";
-@import "portfolio.css";
-@import "experience.css";
-@import "blog.css";
-@import "testimonials.css";
+@import "landing-page/top.css";
+@import "landing-page/services.css";
+@import "landing-page/portfolio.css";
+@import "landing-page/experience.css";
+@import "landing-page/blog.css";
+@import "landing-page/testimonials.css";@import "landing-page/testimonials.css";
+@import "portfolio/portfolio-projects.css";
 @import "footer.css";
 
 

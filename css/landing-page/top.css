@@ -61,7 +61,7 @@
 }
 
 #top .img .background-img {
-  background: url('../img/bae.jpg');
+  background: url('/img/bae.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
