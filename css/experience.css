@@ -136,10 +136,50 @@
 
 /* Tablets */
 @media only screen and (max-width: 960px) {
+  #experience .large-title {
+    font-size: 3rem;
+    left: 0;
+  }
 
+  #experience .experience-container .large-icons {
+    position: relative;
+    top:-25px;
+  }
+  
+  #experience .experience-container .large-icons
+  .square {
+    border: 30px solid #52b8ff;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    top:122px;
+    left: 48px;
+  }
 }
 
 /* Phones */
 @media only screen and (max-width: 767px) {
+  #experience .experience-container {
+    grid-template-columns: 1fr;
+  }
   
+  #experience .experience-container .large-icons {
+    display: none;
+  }
+
+  #experience .experience-container .info .info-box h4 {
+    font-size: .9rem;
 }
+
+#experience .experience-container .info .info-box .date {
+  font-size: .8rem;
+ }
+ 
+ #experience .large-title {
+  font-size: 2.5rem;
+  left: 0;
+}
+ 
+}
+
+
