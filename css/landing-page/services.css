@@ -68,19 +68,19 @@
 #services .services-container .box p {
   font-size: .8rem;
   line-height: 1.5;
-  color: #b3b3b3;
+  color: #5a5858;
 }
 
 #services .services-container .box.blue {
-  border-bottom: 2px solid #52b8ff;
+  border-bottom: 5px solid #DBF1FF;
 }
 
 #services .services-container .box.red {
-  border-bottom: 2px solid #ff5253;
+  border-bottom: 5px solid #DBF1FF;
 }
 
 #services .services-container .box.yellow {
-  border-bottom: 2px solid #ffc853;
+  border-bottom: 5px solid #DBF1FF;
 }
 
 /* Tablets */
