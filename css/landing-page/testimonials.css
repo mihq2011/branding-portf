@@ -155,8 +155,7 @@
 @media only screen and (max-width: 960px) {
   #testimonials .testimonials-container {
    display: grid;
-   grid-template-columns: 50% 50%;
-   grid-template-rows: 100% 1fr;
+   grid-template-columns: 12% 76% 12%;
    grid-gap: 0;
    padding: 100px 0; 
   }
@@ -168,9 +167,10 @@
 @media only screen and (max-width: 767px) {
   #testimonials .testimonials-container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 1fr;
     grid-gap: 0;
-    padding: 100px 0; 
+    padding: 100px 0;
    }
   #testimonials .testimonials-container .test-sides .test-left {
     grid-column:1 / 2;

@@ -8,17 +8,19 @@
   grid-template-columns: 1fr 1fr;
   padding: 80px 0;
   align-items: center;
+  overflow: hidden;
 }
 
 #top .info {
   padding: 15px;
   position: relative;
+  
 }
 
 #top .info .blue-square {
-  border: 20px solid #dbf1ff;
+  border: 20px solid #ff5253;
   width: 500px;
-  height: 300px;
+  height: 500px;
   position: absolute;
   z-index: 0;
   top: -70%;

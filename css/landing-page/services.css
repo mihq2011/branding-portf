@@ -13,7 +13,7 @@
 }
 
 #services .title .circle{
-  background: #eef9ff;
+  background: #ffeded;
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -72,15 +72,15 @@
 }
 
 #services .services-container .box.blue {
-  border-bottom: 5px solid #DBF1FF;
+  border-bottom: 5px solid #ff5253;
 }
 
 #services .services-container .box.red {
-  border-bottom: 5px solid #DBF1FF;
+  border-bottom: 5px solid #ff5253;
 }
 
 #services .services-container .box.yellow {
-  border-bottom: 5px solid #DBF1FF;
+  border-bottom: 5px solid #ff5253;
 }
 
 /* Tablets */
