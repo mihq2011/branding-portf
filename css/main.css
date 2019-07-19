@@ -1,0 +1,143 @@
+@import "cssreset.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+@import "landing-page/top.css";
+@import "landing-page/services.css";
+@import "landing-page/portfolio.css";
+@import "landing-page/experience.css";
+@import "landing-page/blog.css";
+@import "landing-page/testimonials.css";@import "landing-page/testimonials.css";
+@import "portfolio/portfolio-projects.css";
+@import "footer.css";
+
+
+body[data-aos-duration='4000'] [data-aos],
+[data-aos][data-aos][data-aos-duration='4000'] {
+  transition-duration: 4000ms;
+}
+
+body[data-aos-delay='4000'] [data-aos],
+[data-aos][data-aos][data-aos-delay='4000'] {
+  transition-delay: 4000ms;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+}
+
+header .logo .name{
+  background-color: black;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: white;
+}
+
+header .header-menu{
+  font-size: 1;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .header-menu a {
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;
+}
+
+header .header-menu a:hover {
+ font-weight: 700;
+ color: #ff5253;
+}
+
+header .menu-btn {
+  font-weight: 700;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-size: 1.6rem;
+  cursor: pointer;
+ }
+
+.mobile-menu {
+  background: white;
+  display: none;
+  flex-direction: column;
+  padding: 40px 0;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 50%;
+  z-index: 10;
+  transform: translate3d(-100%,0,0);
+  transition: all .4s ease-in-out;
+  -webkit-box-shadow: 2px 0px 78px -15px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 0px 78px -15px rgba(0,0,0,0.75);
+box-shadow: 2px 0px 78px -15px rgba(0,0,0,0.75);
+
+}
+
+.mobile-menu.active {
+  transform: translate3d(0,0,0);
+} 
+
+.mobile-menu a {
+  padding: 15px;
+  text-decoration: none;
+  color: black; 
+}
+
+.mobile-menu a:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff5253;
+  
+}
+
+#map {
+  width: 100%;
+  height: 60vh;
+}
+
+@media only screen and (max-width:960px) {
+  .container {width: 100%}
+}
+
+/* Phones */
+@media only screen and (max-width: 767px) {
+  header .header-menu {
+    display: none;
+  }
+
+  header .menu-btn {
+    display: flex;
+  }
+
+  header .logo {
+    font-size: 1.3rem;
+  }
+
+  .mobile-menu {
+    display: flex;
+  }
+
+}
