@@ -1,9 +1,5 @@
 /* AOS init */
-AOS.init({
-  useClassNames: true,
-  initClassName: false,
-  animatedClassName: 'animated',
-});
+AOS.init();
 
 /*Mobile Menu */
 var menuBtn = document.getElementsByClassName('menu-btn')
@@ -46,32 +42,45 @@ sr.reveal('#top a', {
   mobile: false
 });
 
-sr.reveal('#services h1', {
+sr.reveal('#services .title, #portfolio .title, #blog .title, #testimonial .title', {
   duration: 700,
   scale: 0,
   delay: 500,
   mobile: false
 });
 
-sr.reveal('#services .services-container .box', {
+sr.reveal('#services .services-container .box.blue', {
   duration: 700,
   scale: 0,
-  delay: 650,
+  delay: 500,
+  mobile: false
+});
+
+sr.reveal('#services .services-container .box.red', {
+  duration: 700,
+  scale: 0,
+  delay: 700,
+  mobile: false
+});
+
+sr.reveal('#services .services-container .box.yellow', {
+  duration: 700,
+  scale: 0,
+  delay: 900,
   mobile: false
 });
 
 sr.reveal('#portfolio .portfolio-container .box', {
-  duration: 1000,
+  duration: 800,
   scale: 10,
-  delay: 1000,
+  delay: 600,
   mobile: false
 });
 
 /* TypedJS */
 var typed = new Typed(".type", {
-  strings: ["Mauricio Heredia"],
-  typeSpeed: 40,
-  backSpeed: 20,
+  strings: ["Mauricio  Heredia"],
+  typeSpeed: 45,
   startDelay:1200,
   loop: false
 });

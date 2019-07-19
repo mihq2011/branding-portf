@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
      <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
@@ -282,8 +282,8 @@
       </div>
     </section>
     <section class="map-section">
-      <div class="">
-        <div id="map" data-aos="flip-up" data-aos-duration="1650"></div>
+      <div class="container">
+        <div id="map" data-aos="flip-up" data-aos-duration="500" data-aos-delay="800"></div>
       </div>
     </section>
     <section id="testimonials">
@@ -293,14 +293,14 @@
           <h1>Testimonials</h1>
         </div>
         <div class="testimonials-container">
-          <div class="test-sides test-left">
+          <div class="test-sides test-left" data-aos="fade-right" data-aos-delay="300">
             <div class="person-img" style="background:url('https://static.diverseui.com/male-30.jpg');">
               <div class="hover-bg">
                 <div class="name">James</div>
               </div>
             </div>
           </div>
-          <div class="test-center">
+          <div class="test-center" data-aos="fade-down" data-aos-delay="500">
             <div class="header">
               <div class="user-img" style="background: url('https://static.diverseui.com/female-101.jpg')">
         
@@ -312,7 +312,7 @@
             </div>
             <p>"Mauri's work is magic - he merges stunning user interface design with great user experience and designs products that give tangible results."</p>
           </div>
-          <div class=" test-sides test-right">
+          <div class="test-sides test-right" data-aos="fade-left" data-aos-delay="700">
             <div class="person-img" style="background:url('https://static.diverseui.com/male-30.jpg');">
               <div class="hover-bg">
                 <div class="name">Bryan</div>
@@ -339,7 +339,7 @@
     </footer>
   
  
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="https://unpkg.com/scrollreveal"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>  
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
