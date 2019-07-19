@@ -1,0 +1,6 @@
+*Broswer Sync
+browser-sync start --server --files "**/*"
+
+*Changes get committed to:
+https://mihq2011.github.io/branding-portfolio/index.html?fbclid=IwAR0rCKsyOddTIVXbeoswsBfuCF0NbTj9ilFkbG4KcK1Im0gQcTsmBZCPR4o
+
