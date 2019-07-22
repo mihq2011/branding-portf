@@ -1,6 +1,6 @@
 #testimonials {
   padding: 80px 15px;
-
+  overflow: hidden;
 }
 
 #testimonials .title {

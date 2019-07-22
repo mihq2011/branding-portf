@@ -20,13 +20,6 @@ sr.reveal('#top .blue-square', {
   mobile: false
 });
 
-sr.reveal('#top .background-img', {
-  duration: 1200,
-  easing: 'cubic-bezier(0.5, 0, 0, 1)',
-  distance: '0',
-  delay: 650,
-  mobile: false
-});
 
 sr.reveal('.logo', {
   duration: 700,
@@ -38,7 +31,7 @@ sr.reveal('.logo', {
 sr.reveal('#top a', {
   duration: 700,
   scale: 0,
-  delay: 2900,
+  delay: 2000,
   mobile: false
 });
 
@@ -80,8 +73,8 @@ sr.reveal('#portfolio .portfolio-container .box', {
 /* TypedJS */
 var typed = new Typed(".type", {
   strings: ["Mauricio  Heredia"],
-  typeSpeed: 45,
-  startDelay:1200,
+  typeSpeed: 60,
+  startDelay:0,
   loop: false
 });
 

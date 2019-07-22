@@ -23,6 +23,7 @@ body[data-aos-delay='4000'] [data-aos],
 .container {
   max-width: 1150px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 header {
@@ -53,6 +54,7 @@ header .header-menu{
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 header .header-menu a {
@@ -71,8 +73,6 @@ header .header-menu a:hover {
 header .menu-btn {
   font-weight: 700;
   display: none;
-  justify-content: center;
-  align-items: center;
   padding: 15px;
   font-size: 1.6rem;
   cursor: pointer;

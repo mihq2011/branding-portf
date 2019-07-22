@@ -25,7 +25,11 @@
 }
 
 #experience .skills-container .skill .skill-icon{
-  
+  filter: grayscale(100%);
+}
+
+#experience .skills-container .skill .skill-icon{
+  filter: grayscale(0);
 }
 
 #experience .skills-container .skill .skill-icon img {
@@ -37,7 +41,7 @@
 /* Phones */
 @media only screen and (max-width: 767px) {
   #experience .skills-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
  
  #experience .large-title {
