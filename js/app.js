@@ -22,9 +22,9 @@ sr.reveal('#top .blue-square', {
 
 
 sr.reveal('.logo', {
-  duration: 700,
+  duration: 500,
   scale: 100,
-  delay: 2100,
+  delay: 1500,
   mobile: false
 });
 
@@ -38,28 +38,28 @@ sr.reveal('#top a', {
 sr.reveal('#services .title, #portfolio .title, #blog .title, #testimonial .title', {
   duration: 700,
   scale: 0,
-  delay: 500,
+  delay: 0,
   mobile: false
 });
 
 sr.reveal('#services .services-container .box.blue', {
-  duration: 700,
+  duration: 500,
   scale: 0,
-  delay: 500,
+  delay: 300,
   mobile: false
 });
 
 sr.reveal('#services .services-container .box.red', {
-  duration: 700,
+  duration: 500,
   scale: 0,
-  delay: 700,
+  delay: 400,
   mobile: false
 });
 
 sr.reveal('#services .services-container .box.yellow', {
-  duration: 700,
+  duration: 500,
   scale: 0,
-  delay: 900,
+  delay: 500,
   mobile: false
 });
 

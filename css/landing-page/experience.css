@@ -1,14 +1,30 @@
-#experience {
-
+#experience  .title{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
- #experience .large-title {
-   color: #ff5253;
-   font-weight: 900;
-   font-size: 4.5rem;
-   text-align: center;
-   text-transform: uppercase;
-   position: relative;
-   padding-top: 50px;
+
+ #experience .title .circle{
+  background: #ffeded;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 23px;
+}
+
+#experience .title h1 {
+  position: relative;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #16171b;
+  z-index: 1;
+  letter-spacing: 4px;
  }
 
 #experience .skills-container {
@@ -16,7 +32,7 @@
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 5px;
   grid-row-gap: 50px;
-  padding: 150px 0;
+  padding: 100px 0;
 }
 
 #experience .skills-container .skill {
@@ -26,10 +42,13 @@
 
 #experience .skills-container .skill .skill-icon{
   filter: grayscale(100%);
+  transition: all .3s ease-in-out;
 }
 
-#experience .skills-container .skill .skill-icon{
+#experience .skills-container .skill:hover .skill-icon{
   filter: grayscale(0);
+  cursor: pointer;
+  transform: scale(1.5);
 }
 
 #experience .skills-container .skill .skill-icon img {

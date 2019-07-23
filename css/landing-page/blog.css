@@ -3,14 +3,33 @@
   background: #f9f8fc;
 }
 
-#blog .title h1 {
-  font-size: 4rem;
-  text-align: center;
-  font-weight: 900;
-  margin-bottom: 80px;
-  text-transform: uppercase;
+#blog .title {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
+#blog .title h1 {
+  position: relative;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #16171b;
+  z-index: 1;
+  letter-spacing: 4px;
+}
+
+#blog .title .square{
+  background: #ffeded;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 23px;
+}
 
 #blog .blog-container {
   display: grid;

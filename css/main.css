@@ -5,7 +5,9 @@
 @import "landing-page/portfolio.css";
 @import "landing-page/experience.css";
 @import "landing-page/blog.css";
-@import "landing-page/testimonials.css";@import "landing-page/testimonials.css";
+@import "landing-page/testimonials.css";
+@import "landing-page/testimonials.css";
+@import "landing-page/location.css";
 @import "portfolio/portfolio-projects.css";
 @import "footer.css";
 
@@ -111,11 +113,6 @@ box-shadow: 2px 0px 78px -15px rgba(0,0,0,0.75);
   color: #fff;
   background-color: #ff5253;
   
-}
-
-#map {
-  width: 100%;
-  height: 60vh;
 }
 
 @media only screen and (max-width:960px) {

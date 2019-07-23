@@ -82,15 +82,16 @@
 
 #portfolio-projects .technologies .icons {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
     align-items: center;
     justify-items: center;
+    padding:20px;
 }
 
 #portfolio-projects .technologies .icons .icon img {
     width: 100%;
-    max-width: 60px;
+    max-width: 150px;
     filter: grayscale(100%);
     transition: all .3s ease-in-out;
     cursor: pointer;
@@ -99,7 +100,7 @@
 
 #portfolio-projects .technologies .icons img:hover {
     filter: grayscale(0);
-
+    transform: scale(1.5);
 }
 
 #portfolio-projects .icons .icon img{
