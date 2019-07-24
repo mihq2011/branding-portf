@@ -188,8 +188,19 @@
     padding: 20px;
   }
 
-  #testimonials .testimonials-container .test-center p {
-    font-size: 1rem;
+  #testimonials .testimonials-container .test-sides .person-img{
+    background-position: center top!important;
   }
 
+  #testimonials .testimonials-container .test-center p {
+    font-size: 0.9rem;
+  }
+
+  #testimonials .testimonials-container .test-center {
+    padding: 7px;
+  }
+
+  #testimonials .testimonials-container .test-center .header .info {
+    padding-left: 20px;
+  }
 }

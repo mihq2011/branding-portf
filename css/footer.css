@@ -19,7 +19,6 @@ footer .social-container a {
   text-decoration: none;
   transition: all .3s ease-in-out;
   display: inline-block;
-  padding: 42px;
 }
 
 footer .social-container a:hover  {

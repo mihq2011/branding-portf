@@ -1,3 +1,5 @@
+
+
 /* AOS init */
 AOS.init();
 
@@ -24,14 +26,14 @@ sr.reveal('#top .blue-square', {
 sr.reveal('.logo', {
   duration: 500,
   scale: 100,
-  delay: 1500,
+  delay: 500,
   mobile: false
 });
 
 sr.reveal('#top a', {
   duration: 700,
   scale: 0,
-  delay: 2000,
+  delay: 1300,
   mobile: false
 });
 
@@ -69,6 +71,16 @@ sr.reveal('#portfolio .portfolio-container .box', {
   delay: 600,
   mobile: false
 });
+
+sr.reveal('#portfolio-projects .project-image .img', {
+  duration: 700,
+  distance: '1000px',
+  origin: 'left',
+  delay: 1000,
+  mobile: false
+});
+
+
 
 /* TypedJS */
 var typed = new Typed(".type", {
