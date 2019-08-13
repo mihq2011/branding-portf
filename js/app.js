@@ -15,25 +15,10 @@ menuBtn[0].addEventListener('click', clickedBtn);
 /* Scroll Reveail */
 window.sr = ScrollReveal();
 
-sr.reveal('#top .blue-square', {
-  duration: 1500,
-  origin: 'right',
-  distance: '1200px',
-  mobile: false
-});
-
-
 sr.reveal('.logo', {
   duration: 500,
   scale: 100,
-  delay: 500,
-  mobile: false
-});
-
-sr.reveal('#top a', {
-  duration: 700,
-  scale: 0,
-  delay: 1300,
+  delay: 700,
   mobile: false
 });
 
