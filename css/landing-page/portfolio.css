@@ -146,7 +146,7 @@ cursor: pointer;
   height: 100%;
   width: 100%;
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
@@ -156,11 +156,11 @@ cursor: pointer;
 }
 
 #portfolio .portfolio-container .box.image5 .image {
-  background: url('https://i.postimg.cc/DwNZQj1d/portfolio.png');
+  background: url('https://i.postimg.cc/0rg4DLxf/marketing.png');
   height: 100%;
   width: 100%;
   background-size: cover;
-  background-position: center center;
+  background-position: left center;
   background-repeat: no-repeat;
 }
 
@@ -170,21 +170,7 @@ cursor: pointer;
 }
 
 #portfolio .portfolio-container .box.image6 .image {
-  background: url('');
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
-#portfolio .portfolio-container .box.image7 {
-  grid-column: 1 / 4;
-  grid-row: 5 / 7;
-}
-
-#portfolio .portfolio-container .box.image7 .image {
-  background: url('https://cdn.dribbble.com/users/774375/screenshots/6735509/shot.png');
+  background: url('https://i.postimg.cc/MT95zgvT/Fire-Shot-Capture-008-E-commerce-site-mihq2011-github-io.png');
   height: 100%;
   width: 100%;
   background-size: cover;

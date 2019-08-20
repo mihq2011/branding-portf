@@ -149,7 +149,7 @@
 
     #portfolio-projects .technologies .icons {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         padding-bottom: 200px;
     }
 
