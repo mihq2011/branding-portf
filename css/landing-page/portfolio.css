@@ -1,5 +1,5 @@
 #portfolio {
-  padding: 80px 15px;
+  padding: 50px 15px;
 }
 
 #portfolio .title {
@@ -33,7 +33,7 @@
 #portfolio .portfolio-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 150px 150px 150px 150px 150px;
+  grid-template-rows: 150px 150px 150px 150px;
   grid-gap: 10px;
 }
 
@@ -104,7 +104,7 @@ cursor: pointer;
   height: 100%;
   width: 100%;
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
@@ -118,7 +118,7 @@ cursor: pointer;
   height: 100%;
   width: 100%;
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
@@ -132,7 +132,7 @@ cursor: pointer;
   height: 100%;
   width: 100%;
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
@@ -146,7 +146,7 @@ cursor: pointer;
   height: 100%;
   width: 100%;
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
@@ -160,7 +160,7 @@ cursor: pointer;
   height: 100%;
   width: 100%;
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
@@ -170,14 +170,15 @@ cursor: pointer;
 }
 
 #portfolio .portfolio-container .box.image6 .image {
-  background: url('');
+  background: url('https://i.postimg.cc/K8RNJTHr/outlawlandingpage.png');
   height: 100%;
   width: 100%;
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
+/*
 #portfolio .portfolio-container .box.image7 {
   grid-column: 1 / 4;
   grid-row: 5 / 7;
@@ -191,13 +192,14 @@ cursor: pointer;
   background-position: center center;
   background-repeat: no-repeat;
 }
+*/
 
 /* Tablets */
 @media only screen and (max-width: 960px) {
   #portfolio .portfolio-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px;
     grid-gap: 10px;
   }
   
@@ -242,9 +244,9 @@ cursor: pointer;
 @media only screen and (max-width: 767px) {
   #portfolio .portfolio-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 150px 150px 150px 150px 150px 150px 150px;
-    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6,500px);
+    grid-gap: 75px;
   }
   
   #portfolio .portfolio-container .box.image1 {
