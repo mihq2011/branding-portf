@@ -1,3 +1,7 @@
+#experience {
+  padding: 50px 0;
+}
+
 #experience  .title{
   position: relative;
   width: 200px;
@@ -32,7 +36,7 @@
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 5px;
   grid-row-gap: 50px;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 #experience .skills-container .skill {

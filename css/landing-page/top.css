@@ -63,18 +63,31 @@
 }
 
 #top .img {
-
 }
 
 #top .img .background-img {
-  background: url('https://images.unsplash.com/photo-1536104968055-4d61aa56f46a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80');
+  background: url('https://i.postimg.cc/2rzP94Pq/imgonline-com-ua-shape-AT3g-Nw-L5-TB.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  max-width: 500px;
-  height: 700px;
-  margin: 0 auto;
+  height: 370px;
+  text-align: center;
+}
+
+#top .img .background-info {
+  color: #fd5253;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 30px; 
+}
+
+#top .img .background-info P {
+  font-size: 20px;
+  padding: 15px 30px;
+  line-height: 30px;
+  color: #979797;
 }
 
 /* Tablets */
