@@ -75,11 +75,4 @@ var typed = new Typed(".type", {
   loop: false
 });
 
-/* Maps API */
-var map = new GMaps({
-  el: '#map',
-  lat: 34.256363,
-  lng: -118.465736,
-  zoom: 10.3
-});
 

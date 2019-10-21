@@ -100,7 +100,7 @@ cursor: pointer;
 }
 
 #portfolio .portfolio-container .box.image1 .image {
-  background: url('https://i.postimg.cc/5tfcsv3x/Fire-Shot-Capture-002-Apple-Email-codepen-io.png');
+  background: url('https://i.postimg.cc/5tfcsv3x/Fire-Shot-Capture-002-Apple-Email-codepen-io.JPEG');
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -114,7 +114,7 @@ cursor: pointer;
 }
 
 #portfolio .portfolio-container .box.image2 .image {
-  background: url('https://i.postimg.cc/Gh0qdRsN/Fire-Shot-Capture-002-Apple-Email-codepen-io.png');
+  background: url('https://i.postimg.cc/Gh0qdRsN/Fire-Shot-Capture-002-Apple-Email-codepen-io.JPEG');
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -128,7 +128,7 @@ cursor: pointer;
 }
 
 #portfolio .portfolio-container .box.image3 .image {
-  background: url('https://i.postimg.cc/jjjDGWqb/Fire-Shot-Capture-002-Apple-Email-codepen-io.png');
+  background: url('https://i.postimg.cc/jjjDGWqb/Fire-Shot-Capture-002-Apple-Email-codepen-io.JPEG');
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -142,7 +142,7 @@ cursor: pointer;
 }
 
 #portfolio .portfolio-container .box.image4 .image {
-  background: url('https://i.postimg.cc/jdQ912kv/Fire-Shot-Capture-002-Apple-Email-codepen-io.png');
+  background: url('https://i.postimg.cc/jdQ912kv/Fire-Shot-Capture-002-Apple-Email-codepen-io.JPEG');
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -156,15 +156,11 @@ cursor: pointer;
 }
 
 #portfolio .portfolio-container .box.image5 .image {
-  background: url('https://i.postimg.cc/0rg4DLxf/marketing.png');
+  background: url('https://i.postimg.cc/0rg4DLxf/marketing.JPEG');
   height: 100%;
   width: 100%;
   background-size: cover;
-<<<<<<< HEAD
-  background-position: left center;
-=======
   background-position: top center;
->>>>>>> 0de6bf79179c088521d29066bf6d2f28232211b8
   background-repeat: no-repeat;
 }
 
@@ -174,10 +170,7 @@ cursor: pointer;
 }
 
 #portfolio .portfolio-container .box.image6 .image {
-<<<<<<< HEAD
-  background: url('https://i.postimg.cc/MT95zgvT/Fire-Shot-Capture-008-E-commerce-site-mihq2011-github-io.png');
-=======
-  background: url('https://i.postimg.cc/K8RNJTHr/outlawlandingpage.png');
+  background: url('https://i.postimg.cc/K8RNJTHr/outlawlandingpage.JPEG');
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -185,22 +178,6 @@ cursor: pointer;
   background-repeat: no-repeat;
 }
 
-/*
-#portfolio .portfolio-container .box.image7 {
-  grid-column: 1 / 4;
-  grid-row: 5 / 7;
-}
-
-#portfolio .portfolio-container .box.image7 .image {
-  background: url('https://cdn.dribbble.com/users/774375/screenshots/6735509/shot.png');
->>>>>>> 0de6bf79179c088521d29066bf6d2f28232211b8
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-*/
 
 /* Tablets */
 @media only screen and (max-width: 960px) {
