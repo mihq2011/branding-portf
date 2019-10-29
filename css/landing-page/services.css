@@ -86,7 +86,7 @@
 /* Tablets */
 @media only screen and (max-width: 960px) {
   #services .services-container {
-    grid-template-columns: 100%;
+    grid-template-columns: 50% 50%;
   }
   #services .services-container .box {
     background: rgba(255,255,255,1);
@@ -98,5 +98,7 @@
 
 /* Phones */
 @media only screen and (max-width: 767px) {
-  
+  #services .services-container {
+    grid-template-columns: 100%;
+  }
 }
