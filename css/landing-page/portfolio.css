@@ -156,11 +156,11 @@ cursor: pointer;
 }
 
 #portfolio .portfolio-container .box.image5 .image {
-  background: url('https://i.postimg.cc/0rg4DLxf/marketing.JPEG');
+  background: url('https://i.postimg.cc/kG2cYBb3/desktop.png');
   height: 100%;
   width: 100%;
   background-size: cover;
-  background-position: top center;
+  background-position: left center;
   background-repeat: no-repeat;
 }
 

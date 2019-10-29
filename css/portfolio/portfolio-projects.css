@@ -92,7 +92,6 @@
 #portfolio-projects .technologies .icons .icon img {
     width: 100%;
     max-width: 150px;
-    filter: grayscale(100%);
     transition: all .3s ease-in-out;
     cursor: pointer;
 
