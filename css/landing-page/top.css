@@ -85,7 +85,7 @@
 
 #top .img .background-info P {
   font-size: 20px;
-  padding: 15px 30px;
+  padding: 15px 6px;
   line-height: 30px;
   color: #979797;
 }
@@ -108,19 +108,27 @@
 /* Phones */
 @media only screen and (max-width: 767px) {
   #top .container {
-    padding: 0 0 80px;
-  }
-
-  #top .img {
-    display: none;
+    padding: 0;
   }
 
   #top .info .blue-square {
     display: none;
   }
 
-  #top .img .background-img {
-    height: 100vh;
-  } 
+  #top .img .background-info P {
+    font-size: 12px;
+    padding: 15px 0;
+    line-height: 15px;
+    color: #979797;
+}
 
+#top .img .background-img {
+  display: none;
+}
+
+#services {
+  padding: 40px 15px;
+}
+
+ 
 }

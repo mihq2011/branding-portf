@@ -68,10 +68,6 @@
     margin-bottom: 1.8rem;
 }
 
-#portfolio-projects .technologies {
-    padding: 0 100px;
-}
-
 #portfolio-projects h3 {
     font-size: 2rem;
     font-weight: 700;
@@ -82,7 +78,7 @@
 
 #portfolio-projects .technologies .icons {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(5,1fr);
     grid-gap: 10px;
     align-items: center;
     justify-items: center;
@@ -149,7 +145,6 @@
     #portfolio-projects .technologies .icons {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        padding-bottom: 200px;
     }
 
     #portfolio-projects .project-image .img1 {
